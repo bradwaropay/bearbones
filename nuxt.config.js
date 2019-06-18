@@ -39,6 +39,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    postcss: {
+      plugins: {
+        precss: {}
+      }
+    },
     extend(config, ctx) {}
   }
 }
